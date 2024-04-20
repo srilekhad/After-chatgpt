@@ -80,14 +80,18 @@
                 <option value="Condo">Condo</option>
             </select>
 
-            <label>Features:</label><br>
-            <input type="checkbox" id="feature1" name="feature1"> <label for="feature1">Swimming Pool</label><br>
-            <input type="checkbox" id="feature2" name="feature2"> <label for="feature2">Garden</label><br>
-            <input type="checkbox" id="feature3" name="feature3"> <label for="feature3">Parking Space</label><br>
+            <fieldset>
+                <legend>Features:</legend>
+                <input type="checkbox" id="feature1" name="feature1"> <label for="feature1">Swimming Pool</label><br>
+                <input type="checkbox" id="feature2" name="feature2"> <label for="feature2">Garden</label><br>
+                <input type="checkbox" id="feature3" name="feature3"> <label for="feature3">Parking Space</label><br>
+            </fieldset>
 
-            <label>Rent Duration:</label><br>
-            <input type="radio" id="duration1" name="duration" value="Short Term"> <label for="duration1">Short Term</label><br>
-            <input type="radio" id="duration2" name="duration" value="Long Term"> <label for="duration2">Long Term</label><br>
+            <fieldset>
+                <legend>Rent Duration:</legend>
+                <input type="radio" id="duration1" name="duration" value="Short Term"> <label for="duration1">Short Term</label><br>
+                <input type="radio" id="duration2" name="duration" value="Long Term"> <label for="duration2">Long Term</label><br>
+            </fieldset>
 
             <button type="submit">Submit</button>
         </form>
